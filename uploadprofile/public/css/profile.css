@@ -1,0 +1,38 @@
+body{
+    background-color:brown;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height: 400px;
+    margin-top: 70px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px aliceblue;
+}
+
+div > div {
+    margin:10px;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+}
+
+div > label{
+    opacity: 80%;
+}
+
+div>div>div{
+    border: none;
+}
+
+div > div > img{
+    border-radius: 50%;
+}
