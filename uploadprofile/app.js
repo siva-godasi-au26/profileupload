@@ -29,9 +29,10 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended:true}));
 app.set('view engine','ejs');
 
-app.get('/signup',(req,res)=>{
+app.get('/',(req,res)=>{
     res.render('signup')
 });
+
 
 app.get('/login',(req,res)=>{
     res.render('login')
