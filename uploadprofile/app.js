@@ -84,5 +84,6 @@ app.post('/login',authuser,(req,res)=>{
         res.send('signup before login')
     }
 })
-app.listen(2022)
+const PORT = process.env.PORT || 2022
+app.listen(PORT)
 
